@@ -4711,11 +4711,11 @@ a.close.disabled {
   margin: 0.5rem;
   pointer-events: none; }
   .modal.fade .modal-dialog {
-    -webkit-transition: -webkit-transform 3s ease-out;
-    transition: -webkit-transform 3s ease-out;
-    -o-transition: transform 3s ease-out;
-    transition: transform 3s ease-out;
-    transition: transform 3s ease-out, -webkit-transform 3s ease-out;
+    -webkit-transition: -webkit-transform 5s ease-out;
+    transition: -webkit-transform 5s ease-out;
+    -o-transition: transform 5s ease-out;
+    transition: transform 5s ease-out;
+    transition: transform 5s ease-out, -webkit-transform 5s ease-out;
     -webkit-transform: translate(0, -50px);
     -ms-transform: translate(0, -50px);
     transform: translate(0, -50px); }
@@ -8146,9 +8146,9 @@ body {
     width: 100%; }
 
 a {
-  -webkit-transition: 3s all ease;
-  -o-transition: 3s all ease;
-  transition: 3s all ease;
+  -webkit-transition: 5s all ease;
+  -o-transition: 5s all ease;
+  transition: 5s all ease;
   color: #b1b493; }
   a:hover, a:focus {
     text-decoration: none;
@@ -8226,11 +8226,11 @@ h1, h2, h3, h4, h5,
         -ms-transform: scaleX(0);
         -o-transform: scaleX(0);
         transform: scaleX(0);
-        -webkit-transition: all 3s ease-in-out 0s;
-        -moz-transition: all 3s ease-in-out 0s;
-        -ms-transition: all 3s ease-in-out 0s;
-        -o-transition: all 3s ease-in-out 0s;
-        transition: all 3s ease-in-out 0s; }
+        -webkit-transition: all 5s ease-in-out 0s;
+        -moz-transition: all 5s ease-in-out 0s;
+        -ms-transition: all 5s ease-in-out 0s;
+        -o-transition: all 5s ease-in-out 0s;
+        transition: all 5s ease-in-out 0s; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover span:before {
       visibility: visible;
       -webkit-transform: scaleX(1);
@@ -8347,13 +8347,13 @@ h1, h2, h3, h4, h5,
         color: #b1b493 !important; }
     .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
-      -webkit-transition: .3s all ease-out;
-      -o-transition: .3s all ease-out;
-      transition: .3s all ease-out; }
+      -webkit-transition: .5s all ease-out;
+      -o-transition: .5s all ease-out;
+      transition: .5s all ease-out; }
     .ftco-navbar-light.scrolled.sleep {
-      -webkit-transition: .3s all ease-out;
-      -o-transition: .3s all ease-out;
-      transition: .3s all ease-out; }
+      -webkit-transition: .5s all ease-out;
+      -o-transition: .5s all ease-out;
+      transition: .5s all ease-out; }
     .ftco-navbar-light.scrolled .navbar-brand {
       color: #000000;
       padding-top: 1rem;
@@ -8833,11 +8833,11 @@ h1, h2, h3, h4, h5,
       padding-left: 5px; }
 
 .services {
-  -moz-transition: all 3s ease;
-  -o-transition: all 3s ease;
-  -webkit-transition: all 3s ease;
-  -ms-transition: all 3s ease;
-  transition: all 3s ease;
+  -moz-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  -webkit-transition: all 5s ease;
+  -ms-transition: all 5s ease;
+  transition: all 5s ease;
   width: 100%;
   padding: 30px;
   margin-bottom: 60px; }
@@ -8850,11 +8850,11 @@ h1, h2, h3, h4, h5,
     background: #b1b493;
     border-radius: 50%;
     margin-bottom: 15px;
-    -moz-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    -webkit-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    transition: all 3s ease; }
+    -moz-transition: all 5s ease;
+    -o-transition: all 5s ease;
+    -webkit-transition: all 5s ease;
+    -ms-transition: all 5s ease;
+    transition: all 5s ease; }
     .services .icon span {
       font-size: 40px;
       color: #fff; }
@@ -8995,11 +8995,11 @@ h1, h2, h3, h4, h5,
     max-width: 80%;
     z-index: 1;
     opacity: 0;
-    -moz-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    -webkit-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    transition: all 3s ease; }
+    -moz-transition: all 5s ease;
+    -o-transition: all 5s ease;
+    -webkit-transition: all 5s ease;
+    -ms-transition: all 5s ease;
+    transition: all 5s ease; }
     .project .text h3 {
       font-size: 20px;
       font-weight: 600; }
@@ -9039,21 +9039,21 @@ h1, h2, h3, h4, h5,
       transform: translateY(-50%);
       margin-top: -10px;
       outline: none !important;
-      -moz-transition: all 3s ease;
-      -o-transition: all 3s ease;
-      -webkit-transition: all 3s ease;
-      -ms-transition: all 3s ease;
-      transition: all 3s ease;
+      -moz-transition: all 5s ease;
+      -o-transition: all 5s ease;
+      -webkit-transition: all 5s ease;
+      -ms-transition: all 5s ease;
+      transition: all 5s ease;
       opacity: 0; }
       .testimony-section .owl-nav .owl-prev span:before,
       .testimony-section .owl-nav .owl-next span:before {
         font-size: 30px;
         color: rgba(0, 0, 0, 0.5);
-        -moz-transition: all 3s ease;
-        -o-transition: all 3s ease;
-        -webkit-transition: all 3s ease;
-        -ms-transition: all 3s ease;
-        transition: all 3s ease; }
+        -moz-transition: all 5s ease;
+        -o-transition: all 5s ease;
+        -webkit-transition: all 5s ease;
+        -ms-transition: all 5s ease;
+        transition: all 5s ease; }
       .testimony-section .owl-nav .owl-prev:hover span:before, .testimony-section .owl-nav .owl-prev:focus span:before,
       .testimony-section .owl-nav .owl-next:hover span:before,
       .testimony-section .owl-nav .owl-next:focus span:before {
@@ -9307,10 +9307,10 @@ textarea.form-control {
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
   -webkit-backface-visibility: hidden;
-  -webkit-transition: all 3s ease-out;
-  -moz-transition: all 3s ease-out;
-  -o-transition: all 3s ease-out;
-  transition: all 3s ease-out; }
+  -webkit-transition: all 5s ease-out;
+  -moz-transition: all 5s ease-out;
+  -o-transition: all 5s ease-out;
+  transition: all 5s ease-out; }
 
 .mfp-with-zoom.mfp-ready .mfp-container {
   opacity: 1; }
